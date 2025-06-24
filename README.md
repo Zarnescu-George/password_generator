@@ -1,0 +1,2 @@
+"# criptare.xor" 
+"# criptare.xor" 
