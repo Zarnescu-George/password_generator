@@ -1,3 +1,6 @@
+Cod C++ criptare parole :
+
+
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -44,7 +47,6 @@ int main() {
     int opt;
     char cheie = 'K';
     string linie;
-
     cout << "Apasati 0 pentru criptare si 1 pentru decriptare: ";
     cin >> opt;
     cin.ignore();
@@ -56,11 +58,11 @@ int main() {
     getline(f, linie);
     f.close();
 
-    Nod *prim = nullptr, *ultim = nullptr;
-    for (char c : linie)
+  Nod *prim = nullptr, *ultim = nullptr;
+  for (char c : linie)
         adauga(prim, ultim, c);
 
-    if (opt == 0) {
+  if (opt == 0) {
         cout << "Text original:  ";
         afiseaza(prim);
         cripteaza(prim, cheie);
@@ -86,6 +88,6 @@ int main() {
         cout << "Optiune invalida!" << endl;
     }
 
-    elibereaza(prim);
+   elibereaza(prim);
     return 0;
 }
