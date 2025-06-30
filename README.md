@@ -4,3 +4,6 @@
 "# criptare.xor" 
 "# Guess-Game" 
 "# Guess-Game" 
+"# Dictionaty.demo" 
+"# Dictionaty.demo" 
+"# Tic-Tac-Toe" 
