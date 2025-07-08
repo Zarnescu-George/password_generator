@@ -7,4 +7,9 @@
 "# Dictionaty.demo" 
 "# Dictionaty.demo" 
 "# Tic-Tac-Toe" 
+<<<<<<< HEAD
 "# Tic-Tac-Toe" 
+=======
+>>>>>>> 7b4becc (first commit)
+"# password_generator" 
+"# password_generator" 
